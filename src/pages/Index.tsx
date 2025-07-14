@@ -14,10 +14,10 @@ const Index = () => {
             <Icon name="Activity" size={80} className="mx-auto mb-6 text-red-300" />
           </div>
           <h1 className="text-7xl font-bold mb-6 animate-fade-in" style={{ fontFamily: 'Oswald, sans-serif' }}>
-            JIU-JITSU CLUB
+            Добро пожаловать в наш клуб!
           </h1>
           <p className="text-2xl mb-8 animate-fade-in opacity-90" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-            Искусство побеждать себя каждый день
+            Приходите к нам — мы научим вас джиуджитсу с удовольствием!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
             <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105">
@@ -35,10 +35,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 text-black" style={{ fontFamily: 'Oswald, sans-serif' }}>
-              ПРОГРАММЫ ТРЕНИРОВОК
+              Выберите свою программу
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-              Выберите программу, которая подходит именно вам
+              Найдите свой путь в джиуджитсу — у нас есть программы для всех!
             </p>
           </div>
           
@@ -54,22 +54,22 @@ const Index = () => {
                   Детская группа
                 </CardTitle>
                 <CardDescription className="text-lg text-gray-600" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-                  Основы самообороны, дисциплина, уверенность
+                  Веселые тренировки, новые друзья и крепкое здоровье для малышей
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={20} className="text-green-500" />
-                    <span>Развитие координации</span>
+                    <span>Играем и развиваемся</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={20} className="text-green-500" />
-                    <span>Базовые техники</span>
+                    <span>Изучаем приёмы в игровой форме</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={20} className="text-green-500" />
-                    <span>Воспитание характера</span>
+                    <span>Становимся увереннее и сильнее</span>
                   </li>
                 </ul>
                 <Button className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded-full transition-all duration-300">
@@ -89,22 +89,22 @@ const Index = () => {
                   Взрослая группа
                 </CardTitle>
                 <CardDescription className="text-lg text-gray-600" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-                  Интенсивная подготовка, техника, спарринги
+                  Тренируйтесь в дружной команде и достигайте новых высот!
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={20} className="text-green-500" />
-                    <span>Продвинутые техники</span>
+                    <span>Осваиваем мастерские техники</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={20} className="text-green-500" />
-                    <span>Спарринг-тренировки</span>
+                    <span>Практикуемся в дружеских боях</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={20} className="text-green-500" />
-                    <span>Физическая подготовка</span>
+                    <span>Становимся сильнее и выносливее</span>
                   </li>
                 </ul>
                 <Button className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded-full transition-all duration-300">
@@ -124,22 +124,22 @@ const Index = () => {
                   Соревновательная
                 </CardTitle>
                 <CardDescription className="text-lg text-gray-600" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-                  Подготовка к турнирам, аттестации
+                  Готовимся к соревнованиям вместе с лучшими тренерами!
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={20} className="text-green-500" />
-                    <span>Турнирная подготовка</span>
+                    <span>Готовимся к победам на турнирах</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={20} className="text-green-500" />
-                    <span>Индивидуальные тренировки</span>
+                    <span>Персональный подход к каждому</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Check" size={20} className="text-green-500" />
-                    <span>Система поясов</span>
+                    <span>Путь к заветному черному поясу</span>
                   </li>
                 </ul>
                 <Button className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded-full transition-all duration-300">
@@ -156,10 +156,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 text-black" style={{ fontFamily: 'Oswald, sans-serif' }}>
-              НАШИ ТРЕНЕРЫ
+              Знакомьтесь с нашими тренерами
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-              Опытные мастера с международными достижениями
+              Наша команда профессионалов с радостью поделится знаниями с вами!
             </p>
           </div>
           
@@ -174,22 +174,22 @@ const Index = () => {
                   Сергей Волков
                 </CardTitle>
                 <CardDescription className="text-lg text-gray-600" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-                  Главный тренер • Черный пояс 3 дан
+                  Главный тренер • Добрый наставник с огромным опытом
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-center gap-3">
                     <Icon name="Award" size={18} className="text-red-600" />
-                    <span>Чемпион России 2019</span>
+                    <span>Чемпион России — гордость клуба</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Award" size={18} className="text-red-600" />
-                    <span>Опыт 15+ лет</span>
+                    <span>15+ лет делится знаниями</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Award" size={18} className="text-red-600" />
-                    <span>Мастер спорта</span>
+                    <span>Мастер спорта и отличный учитель</span>
                   </li>
                 </ul>
                 <Button variant="outline" className="w-full border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-semibold py-3 rounded-full transition-all duration-300">
@@ -208,22 +208,22 @@ const Index = () => {
                   Анна Кузнецова
                 </CardTitle>
                 <CardDescription className="text-lg text-gray-600" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-                  Детский тренер • Коричневый пояс
+                  Детский тренер • Любимица всех малышей
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-center gap-3">
                     <Icon name="Award" size={18} className="text-red-600" />
-                    <span>Специализация: дети</span>
+                    <span>Находит подход к каждому ребенку</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Award" size={18} className="text-red-600" />
-                    <span>Опыт 8+ лет</span>
+                    <span>8+ лет работы с детьми</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Award" size={18} className="text-red-600" />
-                    <span>КМС по джиу-джитсу</span>
+                    <span>КМС и просто замечательный человек</span>
                   </li>
                 </ul>
                 <Button variant="outline" className="w-full border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-semibold py-3 rounded-full transition-all duration-300">
@@ -242,22 +242,22 @@ const Index = () => {
                   Дмитрий Соколов
                 </CardTitle>
                 <CardDescription className="text-lg text-gray-600" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-                  Тренер-методист • Черный пояс 2 дан
+                  Тренер-методист • Терпеливый и мудрый наставник
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-center gap-3">
                     <Icon name="Award" size={18} className="text-red-600" />
-                    <span>Призер Европы 2020</span>
+                    <span>Призер Европы — наша гордость</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Award" size={18} className="text-red-600" />
-                    <span>Опыт 12+ лет</span>
+                    <span>12+ лет помогает людям расти</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Icon name="Award" size={18} className="text-red-600" />
-                    <span>Международный судья</span>
+                    <span>Международный судья и добрый друг</span>
                   </li>
                 </ul>
                 <Button variant="outline" className="w-full border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-semibold py-3 rounded-full transition-all duration-300">
@@ -274,10 +274,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 text-black" style={{ fontFamily: 'Oswald, sans-serif' }}>
-              РАСПИСАНИЕ ТРЕНИРОВОК
+              Когда мы встречаемся
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-              Выберите удобное время для тренировок
+              Найдите подходящее время и присоединяйтесь к нам!
             </p>
           </div>
           
@@ -380,10 +380,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 text-white" style={{ fontFamily: 'Oswald, sans-serif' }}>
-              КОНТАКТЫ
+              Давайте знакомиться!
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-              Свяжитесь с нами для записи на тренировку
+              Напишите или позвоните — мы с радостью ответим на все вопросы!
             </p>
           </div>
           
@@ -438,22 +438,22 @@ const Index = () => {
             {/* Call to Action */}
             <div className="bg-gradient-to-br from-red-600 to-red-800 p-8 rounded-2xl">
               <h3 className="text-3xl font-bold mb-6 text-center" style={{ fontFamily: 'Oswald, sans-serif' }}>
-                ЗАПИШИТЕСЬ НА ПРОБНУЮ ТРЕНИРОВКУ
+                Попробуйте бесплатно!
               </h3>
               <p className="text-center text-gray-100 mb-8 text-lg" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-                Первое занятие бесплатно для новых учеников
+                Приходите на первое занятие бесплатно — почувствуйте атмосферу нашего клуба!
               </p>
               <div className="space-y-4">
                 <Button size="lg" className="w-full bg-white text-red-600 hover:bg-gray-100 font-semibold py-4 text-lg rounded-full transition-all duration-300 hover:scale-105">
-                  Записаться сейчас
+                  Да, хочу попробовать!
                 </Button>
                 <Button size="lg" variant="outline" className="w-full border-white text-white hover:bg-white hover:text-red-600 font-semibold py-4 text-lg rounded-full transition-all duration-300 hover:scale-105">
-                  Задать вопрос
+                  У меня есть вопросы
                 </Button>
               </div>
               
               <div className="mt-8 text-center">
-                <p className="text-gray-200 mb-4">Следите за нами в соцсетях:</p>
+                <p className="text-gray-200 mb-4">Подписывайтесь на нас — делимся полезным контентом:</p>
                 <div className="flex justify-center gap-4">
                   <div className="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all duration-300 cursor-pointer">
                     <Icon name="MessageCircle" size={24} className="text-white" />
